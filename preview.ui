@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Preview</class>
+ <widget class="QWidget" name="Preview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Preview</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 247, 158);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 222, 144);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QFrame" name="frame_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 247, 158);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::WinPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="img_orjinal">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 247, 158);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::WinPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="img_aug">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 247, 158);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::WinPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Applied</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPlainTextEdit" name="plainTextEdit">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(222, 222, 144);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::WinPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
